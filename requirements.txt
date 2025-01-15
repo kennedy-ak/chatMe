@@ -1,0 +1,5 @@
+streamlit==1.31.0
+sentence-transformers==2.2.2
+chromadb==0.4.22
+groq==0.4.1
+PyPDF2==3.0.1
