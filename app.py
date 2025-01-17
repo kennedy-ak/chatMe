@@ -71,7 +71,7 @@ def process_and_embed_document(file_path, chunk_size=1000):
 
 def create_collection(text_chunks, embeddings, collection_name="document_collection", path="./chroma"):
     """Create and populate Chroma collection"""
-    chroma_client = chromadb.PersistentClient(path=path)
+    chroma_client = chromadb.Client()
     
     # Remove existing collection if it exists
     try:
