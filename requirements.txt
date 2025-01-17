@@ -1,13 +1,7 @@
-streamlit
+faiss-cpu
 sentence-transformers
-chromadb
-groq
-streamlit
-sentence-transformers
-chromadb
-groq
 PyPDF2
-huggingface-hub
-transformers
-torch
+groq
+streamlit
+numpy
 tqdm
