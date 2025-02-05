@@ -553,7 +553,7 @@ Assistant:"""
     return completion.choices[0].message.content, results["documents"][0]
 
 def main():
-    st.title("PDF Chat Assistant")
+    st.title("Chat Me")
     
     if "messages" not in st.session_state:
         st.session_state.messages = []
