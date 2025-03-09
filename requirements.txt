@@ -5,3 +5,4 @@ groq
 streamlit
 numpy
 tqdm
+plotly
