@@ -13,7 +13,10 @@ import numpy as np
 from typing import List
 import faiss
 from groq import Groq
+from dotenv import load_env
 
+load_env()
+api_key = os.getenv("GROQ_API_KEY")
 embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 class FAISSDocumentStore:
@@ -82,7 +85,7 @@ Context: {context}
 User: {query}
 Assistant:"""
 
-    client = Groq(api_key="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")
+    client = Groq(api_key=api_key )
     completion = client.chat.completions.create(
         messages=[
             {"role": "system", "content": "You are a helpful assistant answering questions about documents."},
