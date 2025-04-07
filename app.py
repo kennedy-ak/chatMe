@@ -13,9 +13,9 @@ import numpy as np
 from typing import List
 import faiss
 from groq import Groq
-from dotenv import load_env
+from dotenv import load_dotenv
 
-load_env()
+load_dotenv()
 api_key = os.getenv("GROQ_API_KEY")
 embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
