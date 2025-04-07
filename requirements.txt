@@ -6,3 +6,4 @@ streamlit
 numpy
 tqdm
 plotly
+python-dotenv
