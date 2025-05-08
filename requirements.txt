@@ -1,11 +1,8 @@
-faiss-cpu
-sentence-transformers
-PyPDF2
-groq
+
 streamlit
 numpy
-tqdm
+
 plotly
 python-dotenv
 psycopg2
-dj-database-url
+
