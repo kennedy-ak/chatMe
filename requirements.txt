@@ -7,3 +7,5 @@ numpy
 tqdm
 plotly
 python-dotenv
+psycopg2
+dj-database-url
